@@ -7,3 +7,4 @@ Exoplanets, or planets outside of our own solar system, give us great understand
 
 ## **Data Used** (Taken from the Kepler Confirmed and Unconfirmed Dataset)
 [Data Splits 1-3](https://drive.google.com/drive/folders/17EKCnqizMg633i6BJFUixf3ys4a8FFeU?usp=sharing)
++ Splits with the same number are the corresponding testing and training splits
