@@ -1,4 +1,3 @@
-# Load libraries
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -21,7 +20,7 @@ scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
-# Instantiate and fit the model
+# fit model
 logreg = LogisticRegression(random_state=16, max_iter=1000)
 logreg.fit(X_train_scaled, y_train)
 
