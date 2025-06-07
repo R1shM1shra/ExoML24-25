@@ -14,12 +14,12 @@ y_train = train_df.iloc[:, 1]
 X_test = test_df.iloc[:, 2:]
 y_test = test_df.iloc[:, 1]
 
-# Normalize the feature data using MinMaxScaler
+# Normalization using a MinMaxScaler
 scaler = MinMaxScaler()
 X_train_scaled = scaler.fit_transform(X_train)  # Fit and transform training data
 X_test_scaled = scaler.transform(X_test)        # Transform test data using the same scaler
 
-# Train SVM model
+# Train model
 svm_model = SVC(kernel='rbf', C=1.0, gamma='scale', random_state=40)
 svm_model.fit(X_train_scaled, y_train)
 
