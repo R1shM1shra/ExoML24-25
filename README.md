@@ -12,4 +12,4 @@ Exoplanets, or planets outside of our own solar system, give us great understand
 ## **Associated Papers**
 [Poster](https://drive.google.com/file/d/1NtN60RtPBkiQP5HM_5rR371k158wlz53/view?usp=drive_link) <br/>
 [Research Paper](https://drive.google.com/file/d/1_5_IxekMhizhUjCH2R-jfncpcYe-pzWF/view?usp=drive_link)
-+ Note that this paper is somewhat unfinished
++ Note that this paper is not fully reflective of all research, and should be considered a draft
