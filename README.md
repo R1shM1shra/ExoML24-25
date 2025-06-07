@@ -10,4 +10,6 @@ Exoplanets, or planets outside of our own solar system, give us great understand
 + Splits with the same number are the corresponding testing and training splits
 
 ## **Associated Papers**
-[TO BE UPDATED](https://drive.google.com/drive/folders/1IkuLTmSOOu3Ur2ETFJJplHylcFjVdwfy?usp=drive_link)
+[Poster](https://drive.google.com/file/d/1NtN60RtPBkiQP5HM_5rR371k158wlz53/view?usp=drive_link)
+[Research Paper](https://drive.google.com/file/d/1_5_IxekMhizhUjCH2R-jfncpcYe-pzWF/view?usp=drive_link)
++ Note that this paper is somewhat unfinished
