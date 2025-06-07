@@ -15,23 +15,16 @@ y_train = train_df.iloc[:, 1]
 X_test = test_df.iloc[:, 2:]
 y_test = test_df.iloc[:, 1]
 
-# Create Decision Tree classifer object
+# create and train d-tree classifier
 clf = DecisionTreeClassifier()
-
-# Train Decision Tree Classifer
 clf = clf.fit(X_train,y_train)
 
-#Predict the response for test dataset
+# Predict the response for test dataset
 y_pred = clf.predict(X_test)
 
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 
-from sklearn.tree import export_graphviz
-from six import StringIO
-from IPython.display import Image
-import pydotplus
-
-# Extract feature names dynamically from the dataset
+# Extract feature names from dataset
 feature_cols = X_train.columns.tolist()
 
 dot_data = StringIO()
@@ -41,13 +34,6 @@ export_graphviz(clf, out_file=dot_data,
                 feature_names=feature_cols,
                 class_names=['1', '2'])
 
-graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
-graph.write_png('exoplanets.png')
-Image(graph.create_png())
-
-from IPython.display import display
-image = Image(filename='exoplanets.png')
-display(image)
 
 #  matrix
 conf_matrix = confusion_matrix(y_test, y_pred)
